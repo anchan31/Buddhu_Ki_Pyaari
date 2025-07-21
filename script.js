@@ -103,3 +103,10 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
+
+document.getElementById('goToNextScene').addEventListener('click', function () {
+    window.location.href = "https://anchan31.github.io/Scene2/YourStory.html";
+});
+
+
+
